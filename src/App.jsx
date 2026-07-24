@@ -100,7 +100,10 @@ export default function App() {
               </p>
             )}
             <p className="font-body text-xs tracking-[0.2em] uppercase text-maroon/50 mt-2">
-              Made By Gaurav Kohli
+              With Love, the Kohli Family
+            </p>
+            <p className="font-body text-xs tracking-[0.2em] uppercase text-maroon/50 mt-2">
+              Curated by Gaurav Kohli
             </p>
           </footer>
 

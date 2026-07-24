@@ -41,30 +41,26 @@ export const invitationConfig = {
           name: "Gaurav Kohli",
         },
         {
-          relation: "Bhabhi",
+          relation: "Sister-in-law",
           name: "Mrs. Deeksha Yadav Kohli",
         },
         {
-          relation: "Jiju",
+          relation: "Brother-in-law",
           name: "Pankaj Kumar",
         },
         {
-          relation: "Masi",
+          relation: "Aunt",
           name: "Veena Sachdeva",
         },
         {
-          relation: "Cousin",
+          relation: "Sister",
           name: "Deepti Vohra",
         },
 
         {
-          relation: "Cousin",
+          relation: "Brother",
           name: "Reatesh Sachdeva",
-        },
-        {
-          relation: "Cousin",
-          name: "Reatesh Sachdeva",
-        },
+        }
       ],
     },
 
@@ -85,7 +81,7 @@ export const invitationConfig = {
           name: "Mrs. Rahul Jain",
         },
         {
-          relation: "Bhabhi",
+          relation: "Sister-in-law",
           name: "Mrs. Anushka Jain",
         },
         {
@@ -93,7 +89,7 @@ export const invitationConfig = {
           name: "Mrs. Prabhat Dugar",
         },
         {
-          relation: "Masi",
+          relation: "Aunt",
           name: "Mrs. Nita Dugar",
         },
       ],
@@ -114,7 +110,7 @@ export const invitationConfig = {
       },
       {
         time: "08:00 PM",
-        title: "The Roka Ritual & Tilak",
+        title: "The Roka Soirée",
         description: "Witness the auspicious Roka ceremony, followed by the exchange of blessings and the Tilak ritual.",
       },
       {

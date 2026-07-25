@@ -10,6 +10,7 @@ import Itinerary from "./components/Itinerary.jsx";
 import Venue from "./components/Venue.jsx";
 import RSVP from "./components/RSVP.jsx";
 import FloatingContact from "./components/FloatingContact.jsx";
+import AddToCalendar from "./components/AddToCalender.jsx";
 
 function formatEventDate(dateStr) {
   const d = new Date(`${dateStr}T00:00:00`);
@@ -88,6 +89,19 @@ export default function App() {
           {/* RSVP */}
           <SectionWrapper className="px-6 py-16 pb-24">
             <RSVP rsvp={rsvp} />
+          </SectionWrapper>
+
+          <SectionWrapper className="px-6 py-16 pb-24 bg-white/40">
+            <AddToCalendar
+              event={{
+                title: "Rohit & Pallavi's Roka Ceremony",
+                description: "Join us for the Roka ceremony! Details: https://rokainvitation.onrender.com/",
+                location: "Hotel Shree Mahaveer",
+                startDate: "2026-08-09",
+                startTime: "19:00",
+                endTime: "23:00",
+              }}
+            />
           </SectionWrapper>
 
           <footer className="text-center pb-10 px-6">

@@ -20,9 +20,9 @@ export default function RSVP({ rsvp }) {
       >
         <p className="font-body text-sm text-emerald/80">{rsvp.rsvpMessage}</p>
         <p className="font-display text-xl text-maroon mt-4">{rsvp.contactName}</p>
-        <p className="font-body text-sm tracking-wide text-emerald/90 mt-1">
+        {/* <p className="font-body text-sm tracking-wide text-emerald/90 mt-1">
           {rsvp.contactPhone}
-        </p>
+        </p> */}
 
         <div className="flex items-center justify-center gap-4 mt-6">
           <motion.a

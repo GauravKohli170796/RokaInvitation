@@ -138,6 +138,32 @@ export default function Envelope({ coupleInitials, onOpened }) {
                   {coupleInitials}
                 </span>
               </motion.div>
+
+              {/* Tap hint — hand pointing straight down at the seal, centered above it */}
+              {stage === "closed" && (
+                <motion.div
+                  className="absolute left-[48%] top-[8%] -translate-x-1/2 flex flex-col items-center pointer-events-none select-none z-20"
+                  initial={{ opacity: 0 }}
+                  animate={{ opacity: 1 }}
+                  transition={{ duration: 0.5, delay: 0.3 }}
+                >
+                  <motion.span
+                    className="text-5xl sm:text-6xl leading-none"
+                    style={{ filter: "drop-shadow(0 3px 6px rgba(0,0,0,0.35))" }}
+                    animate={{
+                      y: [0, 12, 0],
+                      scale: [1, 0.88, 1],
+                    }}
+                    transition={{
+                      duration: 1.3,
+                      repeat: Infinity,
+                      ease: "easeInOut",
+                    }}
+                  >
+                    👇
+                  </motion.span>
+                </motion.div>
+              )}
             </motion.button>
 
             <motion.p

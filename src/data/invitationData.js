@@ -38,7 +38,7 @@ export const invitationConfig = {
         },
         {
           relation: "Brother",
-          name: "Gaurav Kohli",
+          name: "Mr. Gaurav Kohli",
         },
         {
           relation: "Sister-in-law",
@@ -61,7 +61,7 @@ export const invitationConfig = {
         },
         {
           relation: "Brother",
-          name: "Mrs. Rahul Jain",
+          name: "Mr. Rahul Jain",
         },
         {
           relation: "Sister-in-law",
